@@ -36,8 +36,9 @@ For example, do some of the functions or terms used need some description?
 *--------------------------------------------------------------------------*
 | Macro Call Examples:
 *--------------------------------------------------------------------------*
-For example must use within a data step on the right side of the equation
-   age = %age_years ( "28NOV2008"d, DOB ) ;
+
+  age2023 = %usually-same-name-as-macro ( "01JAN2023"d, DOB ) ;
+
 
 *--------------------------------------------------------------------------*
 | DISCLAIMER:
