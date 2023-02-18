@@ -1,4 +1,5 @@
-/*--------------------------------------------------------------------------*
+/*
+*--------------------------------------------------------------------------*
 | Mass-DAC Project - Dept of Health Care Policy - Harvard Medical School   |
 *--------------------------------------------------------------------------*
 | ProgramName  = age_years.sas
@@ -14,7 +15,7 @@
 | ModifiedDate = 27 Jan 2009
 | ByWhom       = Matthew Cioffi
    Updated Documentation
-*--------------------------------------------------------------------------* ;
+*--------------------------------------------------------------------------*;
 
 *--------------------------------------------------------------------------*
 | Full Description:                                                        |
@@ -26,7 +27,7 @@ something has been in service.
 
 Parameters:
    Both paramteres are dates and must contain a SAS date value either as
-a SAS date variable or as a text constant, i.e. "28NOV1999"d.
+   a SAS date variable or as a text constant, i.e. "28NOV1999"d.
    DATE  = The relevant date to compute the age in years on
 
    BIRTH = The birth date or start date of the person or event
@@ -69,8 +70,8 @@ where DOB is a SAS date value in a data set.
 *--------------------------------------------------------------------------*;
 *--------------------------------------------------------------------------*
 | DISCLAIMER:                                                              |
-|--------------------------------------------------------------------------|
-   The information contained within this file is provided "AS IS" by the
+*--------------------------------------------------------------------------*
+The information contained within this file is provided "AS IS" by the
 Department of Health Care Policy (HCP), Harvard Medical School, as a
 service to the Department's SAS programmers.  There are no warranties,
 expressed or implied, as to the merchantability or fitness for a
@@ -78,7 +79,7 @@ particular purpose regarding the accuracy of the materials or programming
 code contained herein. This macro may be distributed freely as long as all
 comments, headers and related files are included.
 
-   Copyright (C) 2009 by The Department of Health Care Policy, Harvard
+Copyright (C) 2009 by The Department of Health Care Policy, Harvard
 Medical School, Boston, MA, USA. All rights reserved.
 *--------------------------------------------------------------------------*;
 */
@@ -89,10 +90,3 @@ Medical School, Boston, MA, USA. All rights reserved.
             ( day( &DATE ) < day( &BIRTH ))) / 12 )
 
 %mend age_years ;
-
-
-
-
-
-
-
