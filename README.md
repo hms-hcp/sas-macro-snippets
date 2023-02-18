@@ -12,11 +12,8 @@ To share a code snippet, we recommend trying out [GitHub Gist](https://gist.gith
 ## Macro Folders
 The macro folder name indicates the general function of the macro. 
 * **Data wrangling:** Anything to to with manipulating data, rows and variables
-* **Formats:**
-* **Function:**
-* **Method:**
-* **Output-ODS:**
-* **Portability:**
-* **Utility:**
-
-
+* **Function:** Short macros that work like a function, e.g., computing age, add a timestamp, removing quotes, etc... 
+* **Method:** Various statistical methods and code to compute tables, statistics. SOme of the older macros may now actually have ben integrated into SAS/STAT procedures
+* **Output and Formats:** Code to support graphical outpout, ODS, and other formatting options
+* **Portability:** A set of macros that are useful for creating portable code, many created or modified from the SAS Global Forum paper 834-2017 by Art Carpenter and Mary Rosenbloom, I’ve Got to Hand It to You; Portable Programming Techniquesby 
+* **Utility:** Basic utily functions that help get comon tasks done
