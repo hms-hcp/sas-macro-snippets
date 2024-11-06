@@ -2,9 +2,9 @@
 A collection of SAS macros and code snippets shared and collected by Health Care Policy (HCP) programmers
 
 ## Overview
-The files in the repository are SAS macros and code snippets collected my many programes in the Deaprtment of Health Care Policy (HCP) at the Harvard Medical School in Boston, MA, USA. These useful macros and snippets were either created by HCP coders or downloaded and shared from other institutional  reposiories that granted permission to share. All code is provided as is and you are free to use these in your SAS environments.
+The files in the repository are SAS macros and code snippets collected and created by analysts in the Deaprtment of Health Care Policy (HCP) at the Harvard Medical School in Boston, MA, USA. This collection started in the early 2000's. Many macros were downloaded from SAS conference papers and other institutional reposiories that granted permission to use and copy. All code is provided as is and you are free to use these in your SAS environments.
 
-This repository was created in Febryuary 2023 as an alternative method to share HCP code. Most of the SAS macros are still availabe in the private locations at HCP but snippets and macros added 2023 and later may only be availble here.
+This repository was created in Febryuary 2023 as an alternative method to share HCP code. In November 2024, this repository replaces the  SAS macros in the SharePoint documents library. GitHub provides better methods to share, maintain, and use these macros going forward. A link to this repository has been included in the HCP Teams SharePoint site for the HCP analysts.
 
 ## Sharing Snippets
 To share a code snippet, we recommend trying out [GitHub Gist](https://gist.github.com). Learn how to create a new Gist [here](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists).
