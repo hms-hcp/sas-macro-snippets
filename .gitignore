@@ -34,3 +34,8 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
+*.sas7bdat
+*.sas7bcat
+*.dta
+*.gph
+*.Rdata
